@@ -1,0 +1,72 @@
+body {
+    background-image: url('image1.jpg');
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;  
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);  
+    border-radius: 15px;
+    height: 350px;
+    width: 450px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    justify-content: space-between; 
+    box-sizing: border-box;  
+}
+
+.header {
+    font-size: 1.2rem;
+    border: solid 2px white;
+    border-radius: 10px; /* Adds rounded corners */
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 0, 0.4); /* Yellow background with 40% opacity */
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.text-area {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.person {
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.button-area {
+    margin-top: 20px;
+}
+
+.button-area button {
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    border: none;  
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.button-area button:hover {
+    background-color: darkgray; 
+}
+
+.button-area button:active {
+    background-color: lightgreen;  
+}
